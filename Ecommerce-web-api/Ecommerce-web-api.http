@@ -1,6 +1,15 @@
-@Ecommerce_web_api_HostAddress = http://localhost:5228
 
-GET {{Ecommerce_web_api_HostAddress}}/weatherforecast/
-Accept: application/json
+GET http://localhost:5228/hello
 
 ###
+
+POST http://localhost:5228/hello
+
+###
+
+PUT http://localhost:5228/hello
+
+###
+
+DELETE http://localhost:5228/hello
+
